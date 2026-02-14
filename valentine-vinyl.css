@@ -107,3 +107,36 @@ h4 {
   font-weight: bold;
   color: #222;
 }
+
+@media (max-width: 600px) {
+  #player-container {
+    margin-top: 20px;
+  }
+
+  svg {
+    width: 85vw;     /* sedikit lebih kecil di HP */
+  }
+
+  h4 {
+    font-size: 18px;
+    padding: 0 14px;
+  }
+
+  #play-button {
+    width: 70%;
+    font-size: 14px;
+  }
+
+  .choice-buttons {
+    height: 100px; /* ruang lebih biar tombol nggak nabrak */
+  }
+
+  .choice-buttons button {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  #no-btn {
+    left: 120px; /* posisi awal tombol tidak di HP */
+  }
+}
